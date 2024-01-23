@@ -1,0 +1,46 @@
+.top_wrapper {
+    height: 100%;
+    margin-top: 50px;
+    padding-bottom: 250px;
+
+    .messages_wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 95%;
+        overflow-y: auto;
+        margin-bottom: 250px;
+
+        .back {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            cursor: pointer;
+        }
+
+        .message_default {
+            color: #fff;
+            padding: 10px;
+            font-size: 22px;
+            border-radius: 6px;
+            display: inline;
+            margin: 20px 0;
+            user-select: text;
+        }
+
+        .message_default:last-child {
+            margin-bottom: 50px;
+        }
+
+        .msg_opponent {
+            text-align: left;
+            background-color: black;
+            margin-right: 20%;
+        }
+
+        .my_message {
+            text-align: right;
+            background-color: rgb(37, 156, 37);
+            margin-left: 20%;
+        }
+    }
+}

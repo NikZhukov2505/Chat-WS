@@ -1,0 +1,53 @@
+.chat_wrapper {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    height: 30px;
+    background-color: greenyellow;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    border-radius: 6px;
+
+    .chat_window {
+        position: absolute;
+        bottom: 30px;
+        right: 0px;
+        width: 600px;
+        height: 600px;
+        background-color: aqua;
+        cursor: auto;
+        border-radius: 6px;
+        overflow: hidden;
+        padding-bottom: 80px;
+
+        .close_chat {
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 30px;
+        }
+
+        .name_chat {
+            margin-top: 50px;
+            padding: 10px;
+            height: 100%;
+            overflow-y: auto;
+
+            .chat {
+                margin: 15px;
+                padding: 10px;
+                border-radius: 6px;
+                border: 1px solid black;
+                cursor: pointer;
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+}

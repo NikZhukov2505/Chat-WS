@@ -1,0 +1,19 @@
+.send_form {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+    input {
+        padding: 16px;
+        font-size: 22px;
+        width: 80%;
+    }
+
+    button {
+        width: 20%;
+        font-size: 35px;
+    }
+}
